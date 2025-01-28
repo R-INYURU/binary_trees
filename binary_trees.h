@@ -85,7 +85,7 @@ int heap_extract(heap_t **root);
 int *heap_to_sorted_array(heap_t *heap, size_t *size);
 
 /* helper functions */
-void btic_helper(const binary_tree_t *tree, size_t index, size_t size);
+int btic_helper(const binary_tree_t *tree, size_t index, size_t size);
 int btih_helper(const binary_tree_t *tree);
 
 #endif /* _BINARY_TREES_H_ */
